@@ -5,3 +5,75 @@
 width: 100%;
 height: 100%;
 }
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5cdb95;
+}
+.page-header{
+    height: 92px;
+    width: calc(100% - 36px);
+    padding: 8px 18px;
+    background-color: #f64c72;
+}
+.page-logo-container{
+    background-image: url(https://www.adobe.com/express/create/media_127a4cd0c28c2753638768caf8967503d38d01e4c.jpeg?width=400&format=jpeg&optimize=medium);
+    height: 92px;
+    background-repeat: round;
+    float: left;
+    width: 92px;
+    margin-left: 2px;
+}
+.page-search-form{
+    padding: 6px;
+    height: 20px;
+    border: 2px solid #eee;
+    border-radius: 4px ;
+    width: 200px;
+}
+.page-search-form{
+    float: right;
+    margin-top: 31px;
+}
+.page-nav-bar{
+    height: 20px;
+    padding: 10px 0px;
+    width: 100%;
+    border: 4px solid #120933;
+}
+.page-nav-link{
+    width: 24.75%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+}
+.page-nav-link:hover {
+    text-decoration: dotted;
+}
+.page-content{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.page-content-aside{
+    width: 20%;
+    height: calc(100%-250px);
+
+}
+#main-content-section{
+    width: 59.4%;
+    
+}
+.page-content ul{
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+}
+img{
+    height: 350px;
+    width: 240px;
+}
