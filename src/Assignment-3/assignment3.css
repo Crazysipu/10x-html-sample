@@ -1,6 +1,7 @@
 /* Our CSS file. */
 
 
+
 .container, .content {
 width: 100%;
 height: 100%;
@@ -24,6 +25,14 @@ height: 100%;
     height: 120px;
 }
 .button1{
-    background:black;
-    color: white;
+    background:burlywood;
+    color:red;
+    padding: 25px;
+    text-align: center;
+    display: inherit;
+    font-size: 18px;
+    margin: 5px 3px;
+    border-radius: 40px;
+    border-style: dotted;
+    border-color: black;
 }
